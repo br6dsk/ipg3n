@@ -48,7 +48,6 @@ ip_list[0] = '127.0.0.1'
 c = 0
 while c < len(ip_list):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    for i in range()
     if(sock.connect_ex((ip_list[c], int(port)))):
         print(color.RED + f'[{port}] : [CLOSED]             ' + ip_list[c])
 
