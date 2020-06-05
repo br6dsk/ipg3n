@@ -54,26 +54,9 @@ while c < len(ip_list):
     else:
         print(color.GREEN + f'[{port}] : [OPEN]               ' + color.WHITE + ip_list[c])
         file = open('open.txt', 'a')
-        write = file.writelines('IP: ' + ip_list[c] + f'   [{port}] [OPEN]\n')
+        write = file.writelines(f'[{port}] : [OPEN]               ' + ip_list[c] + '\n')
     c+=1
     sock.close()
 print(color.YELLOW + '\nFile saved as open.txt')
 print(color.YELLOW + '\n[FINISH!]')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-###
+#br 
