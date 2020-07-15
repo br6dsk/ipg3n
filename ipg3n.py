@@ -21,8 +21,8 @@ banner = r"""
    88           aa,    ,88                               g00d luck :)
    88            "Y8bbdP"
 
-Coded 4Study by: brndsk
-Github: github.com/brndsk
+Coded 4Study by: br6dsk
+Github: github.com/br6dsk
 Usage: python3 ipg3n.py <quantity of ip's to test> <port>
 """
 print(color.GREEN + banner)
